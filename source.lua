@@ -21,7 +21,7 @@ mainTab:AddButton({
 mainTab:AddButton({
 	Name = "halloween selling gui",
 	Callback = function()
-        loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/halloweevn/SpookyControl/main/Source%20%3AD/GUI'))()"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/halloweevn/SpookyControl/main/Source%20%3AD/GUI"))()
   	end    
 })
 mainTab:AddButton({
