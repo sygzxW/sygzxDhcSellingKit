@@ -19,6 +19,12 @@ mainTab:AddButton({
   	end    
 })
 mainTab:AddButton({
+	Name = "halloween selling gui",
+	Callback = function()
+        loadstring(game:HttpGet("loadstring(game:HttpGet('https://raw.githubusercontent.com/halloweevn/SpookyControl/main/Source%20%3AD/GUI'))()"))()
+  	end    
+})
+mainTab:AddButton({
 	Name = "swagmode (v)",
 	Callback = function()
         loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))() 
