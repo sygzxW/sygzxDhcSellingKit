@@ -21,7 +21,7 @@ mainTab:AddButton({
 mainTab:AddButton({
 	Name = "halloween selling gui",
 	Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/halloweevn/SpookyControl/main/Source%20%3AD/GUI"))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/halloweevn/SpookyControl/main/Source%20%3AD/GUI'))()
   	end    
 })
 mainTab:AddButton({
@@ -42,3 +42,9 @@ mainTab:AddButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
   	end    
 })
+local mainTab = Window:MakeTab({
+	Name = "credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddParagraph("sygzx","github.com/sygzxW")
