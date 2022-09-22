@@ -42,9 +42,9 @@ mainTab:AddButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
   	end    
 })
-local mainTab = Window:MakeTab({
+local creditsTab = Window:MakeTab({
 	Name = "credits",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
-Tab:AddParagraph("sygzx","github.com/sygzxW")
+creditsTab:AddParagraph("sygzx","github.com/sygzxW")
