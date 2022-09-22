@@ -48,3 +48,4 @@ local creditsTab = Window:MakeTab({
 	PremiumOnly = false
 })
 creditsTab:AddParagraph("sygzx","github.com/sygzxW")
+creditsTab:AddParagraph("scripts:","i dont own any scripts in this hub, credits go to script's respective owners")
