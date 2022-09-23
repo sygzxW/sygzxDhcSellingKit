@@ -41,13 +41,13 @@ mainTab:AddButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))() 
   	end    
 })
-mainTab:AddButtom({
+mainTab:AddButton({
 	Name = "Plasma (v)",
 	Callback = function()
 	loadstring(game:HttpGet("https://iexploit.xyz/scripts/plasma/loader"))()
 	end
 })
-mainTab:AddButtom({
+mainTab:AddButton({
 	Name = "Faded (v)",
 	Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/sygzxW/sygzxDhcSellingKit/main/customScripts/faded.lua"))()
@@ -64,7 +64,7 @@ commandsTab:AddButton({
         loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
   	end    
 })
-commandsTab:AddButtom({
+commandsTab:AddButton({
 	Name = "CMD-X",
 	Callback = function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
